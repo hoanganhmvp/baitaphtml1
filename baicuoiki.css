@@ -1,0 +1,446 @@
+@font-face {
+    font-family: porsche;
+    src: url(POR2.TTF);
+}
+
+.header{
+   background-attachment: scroll;
+   background-clip: border-box;
+   background-color: rgba(0, 0, 0, 0);
+   background-image: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 8.1%, rgba(0, 0, 0, 0.8) 15.5%, rgba(0, 0, 0, 0.8) 22.5%, rgba(0, 0, 0, 0.78) 29%, rgba(0, 0, 0, 0.73) 35.3%, rgba(0, 0, 0, 0.67) 41.2%, rgba(0, 0, 0, 0.6) 47.1%, rgba(0, 0, 0, 0.52) 52.9%, rgba(0, 0, 0, 0.44) 58.8%, rgba(0, 0, 0, 0.33) 64.7%, rgba(0, 0, 0, 0.22) 71%, rgba(0, 0, 0, 0.12) 77.5%, rgba(0, 0, 0, 0.05) 84.5%, rgba(0, 0, 0, 0.01) 91.9%, rgba(0, 0, 0, 0) 100%);
+   block-size: 148px;
+   display: block;
+   font-family: "porsche",arial;
+   font-weight: 400;
+   letter-spacing: normal;
+   line-height: 24px;
+   text-size-adjust: 100%;
+   visibility: visible;
+   display: flex;
+   position: relative;
+   z-index: 2;
+}
+
+.menu-button{
+    font-family: "porche", arial;
+    padding-top: 43px;
+    margin-left: 32px;
+    display: flex;
+    letter-spacing: normal;
+    color: white;
+    cursor: pointer;
+}
+
+.user-icon{
+    padding-top: 43px;
+    margin-left: 380px;
+    cursor: pointer;
+}
+
+.porsche-video{
+    margin-top: -148px;
+    margin-left: -64px;
+    position: relative;
+    z-index: 1;
+}
+
+.video-text{
+ font-family: "porsche",arial;
+ font-weight: 400;
+ font-size: 100px;
+ margin-left: 97px;
+ margin-top: -383px;
+ width: 456px;
+ height: 200px;
+ position: relative;
+ z-index: 2;
+ color: white;
+ display:flex
+}
+
+.video-box {
+  background-color: rgba(255, 255, 255, 0.1); /* Màu nền trong suốt */
+  border: 2px solid white; /* Viền màu trắng */
+  border-radius: 4px; /* Bo góc */
+  color: white; /* Màu chữ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  margin-top: 60px;
+  font-family: "porsche",arial;
+  transition: all 0.3 ease-in-out;
+  cursor: pointer;
+}
+
+.video-box:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-color: #969393;
+}
+
+.gioithieu-container{
+    width: 1500px;
+    height: 360px;
+    display: flex;
+    margin-top: 65px;
+    margin-left: 174px;
+}
+
+.gioithieu-mini{
+    width: 244px;
+    height: 330px;
+    margin-top: 71px;
+    margin-left: 85px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.gioithieu-mini:hover{
+    transform: scale(1.1);
+}
+
+.items-bottom{
+   background-color: rgba(0, 0, 0, 0);
+   background-image: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 8.1%, rgba(0, 0, 0, 0.8) 15.5%, rgba(0, 0, 0, 0.8) 22.5%, rgba(0, 0, 0, 0.78) 29%, rgba(0, 0, 0, 0.73) 35.3%, rgba(0, 0, 0, 0.67) 41.2%, rgba(0, 0, 0, 0.6) 47.1%, rgba(0, 0, 0, 0.52) 52.9%, rgba(0, 0, 0, 0.44) 58.8%, rgba(0, 0, 0, 0.33) 64.7%, rgba(0, 0, 0, 0.22) 71%, rgba(0, 0, 0, 0.12) 77.5%, rgba(0, 0, 0, 0.05) 84.5%, rgba(0, 0, 0, 0.01) 91.9%, rgba(0, 0, 0, 0) 100%);
+   background-origin: padding-box;
+   background-repeat: repeat;
+   background-size: auto;
+   block-size: 148px;
+   display: block;
+   visibility: visible;
+   display: flex;
+   position: relative;
+   width: 300px;
+   margin-top: -151px;
+   border-radius: 12px;
+   position: relative;
+   z-index: 1;
+}
+
+.gioithieu-text{
+   font-family: "porsche",arial; 
+   font-size: 17px;
+   margin-left: 13px;
+   margin-top: -32px;
+   color: white;
+   display: flex;
+   position: relative;
+   z-index: 2;
+   width: 300px;
+}
+
+.models-container{
+    width: 1500px;
+    height: 2000px;
+    margin-top: 10px;
+    margin-left: -120px;
+}
+
+.models-head-text{
+    font-family:"porsche",arial; 
+    font-weight: bolder;
+    font-size: 25px;
+    padding-top: 35px;
+    margin-left: 785px;
+}
+
+.mini-models-container{
+    width: 1500px;
+    height: 200px;
+    display: flex;
+    margin-left: 10px;
+}
+
+.mini-models-container2{
+    width: 500px;
+    height: 200px;
+    margin-top: 75px;
+    margin-left: 187px;
+}
+
+.mini-models-img{
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.mini-models-img:hover{
+    transform: scale(1.1);
+}
+
+.models-mini-text{
+    font-family:"porsche",arial; 
+    font-size: 20px;
+    margin-top: -170px;
+    margin-left: 15px;
+    width: 390px;
+    height: 100px;
+    color: white;
+    z-index: 2;
+    position: relative;
+}
+
+.models-price{
+   font-family:"porsche",arial; 
+    font-size: 15px;
+    margin-top: -40px;
+    margin-left: 15px;
+    color: white;
+    z-index: 2;
+    position: relative; 
+}
+
+.models-box1{
+  background-color: rgb(255, 255, 255); /* Màu nền trong suốt */
+  border: 2px solid white; /* Viền màu trắng */
+  border-radius: 4px; /* Bo góc */
+  color: rgb(0, 0, 0); /* Màu chữ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  margin-top: 26px;
+  font-family: "porsche",arial;
+  transition: all 0.3 ease-in-out;
+  cursor: pointer;
+  width: 99px;
+  height: 44px;
+  margin-left: 13px;
+}
+
+.models-box1:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-color: #969393;
+}
+
+.models-box2{
+  background-color: rgba(255, 255, 255, 0.1); /* Màu nền trong suốt */
+  border: 2px solid white; /* Viền màu trắng */
+  border-radius: 4px; /* Bo góc */
+  color: white; /* Màu chữ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  margin-top: -47px;
+  font-family: "porsche",arial;
+  transition: all 0.3 ease-in-out;
+  cursor: pointer;
+  width: 99px;
+  height: 44px;
+  margin-left: 123px;
+}
+
+.models-box2:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+  border-color: #969393;
+}
+
+.find-container{
+   margin-left: 325px;
+   width: 800px;
+   height: 270px;
+   background-color: black;
+   border-radius: 12px;
+   margin-top: 161px;
+   display: flex;
+}
+
+.find-text{
+width: 420px;
+height: 218px;
+font-size: 14px;
+font-family: "porsche", Arial;
+color: white;
+padding-top: 52px;
+margin-left: 27px;
+background-color: black;
+position: relative;
+z-index: 2;
+}
+
+.find-container2{
+   margin-left: 297px;
+   width: 1324px;
+   height: 270px;
+   background-color: rgb(255, 255, 255);
+   border-radius: 12px;
+   margin-top: 161px;
+   display: flex;
+}
+
+.find-text2{
+width: 420px;
+height: 218px;
+font-size: 14px;
+font-family: "porsche", Arial;
+color: rgb(0, 0, 0);
+padding-top: 52px;
+margin-left: 27px;
+background-color: rgb(255, 255, 255);
+position: relative;
+z-index: 2;
+}
+
+.search-container {
+display: flex;
+align-items: center;
+border: 1px solid #000000;
+border-radius: 5px;
+width: 412px;
+height: 30px;
+margin-left: 2px;
+padding-top: 25px;
+}
+
+.search-input {
+border: none;
+outline: none;
+flex: 1;
+margin-top: -22px;
+margin-left: 10px;
+}
+
+.online-shop-container{
+    width: 1500px;
+    height: 680px;
+    margin-left: 0px;
+    margin-top: 190px;
+}
+
+.online-shop-product{
+    width: 1500px;
+    height: 300px;
+    margin-left: 0px;
+    margin-top: 40px;
+    display: flex;
+}
+
+.online-product{
+    width: 380px;
+    height: 420px;
+    margin-left: 41px;
+    margin-right: 65px;
+}
+
+.online-text{
+width: 420px;
+height: 85px;
+font-size: 14px;
+font-family: "porsche", Arial;
+color: rgb(0, 0, 0);
+padding-top: 52px;
+margin-left: -4px;
+background-color: rgb(255, 255, 255);
+transition: all 0.3 ease-in-out;
+cursor: pointer;
+}
+
+.online-text:hover{
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.footer-container{
+    margin-top: 277px;
+    width: 1523px;
+    height: 700px;
+    background-color: black;
+    display: flex;
+    margin-left: -9px;
+}
+
+.footer-text{
+font-size: 15px;
+font-family: "porsche", Arial;
+color: white;
+display: flex;
+margin: 10px;
+}
+
+.footer-textbox1{
+    width: 300px;
+    height: 500px;
+    margin-left: 10px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-textbox2{
+    width: 300px;
+    height: 500px;
+    margin-left: 50px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.foot-box{
+  background-color: white;
+  border-radius: 4px; 
+  color: rgb(0, 0, 0); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 33px;
+  font-family: "porsche",arial;
+  transition: all 0.3 ease-in-out;
+  cursor: pointer;
+  width: 223px;
+  height: 45px;
+  margin-left: 10px;
+}
+
+.foot-box:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+  
+}
+
+.foot-box2{
+  background-color: white;
+  border-radius: 4px; 
+  color: rgb(0, 0, 0); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 33px;
+  font-family: "porsche",arial;
+  transition: all 0.3 ease-in-out;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.foot-box2:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.social-box{
+    width: 380px;
+    height: 70px;
+    display: flex;
+    margin-top: -10px;
+}
+
+.border{
+    width: 1514px;
+    height: 10px;
+    background-color: rgb(0, 0, 0);
+    margin-top: -162px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
